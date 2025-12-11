@@ -1,3 +1,4 @@
+"use client";
 import Home from '@/components/Helper/Home/Home';
 import React from 'react'
 
