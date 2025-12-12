@@ -49,7 +49,7 @@ const Hero = () => {
         </div>
 
         {/* Heading */}
-        <h1 data-aos="zoom-in" className="text-3xl text-amber-50 sm:text-4xl md:text-5xl lg:text-6xl mt-18 text-center font-extrabold font-roboto-mono tracking-wider z-30">
+        <h1 data-aos="zoom-in" className="text-3xl text-amber-50 sm:text-4xl md:text-5xl lg:text-6xl mt-6 lg:mt-10 text-center font-extrabold font-roboto-mono tracking-wider z-30">
           Creating web products, <br />
           brands <span className="text-cyan-200">and experiences.</span>
         </h1>
