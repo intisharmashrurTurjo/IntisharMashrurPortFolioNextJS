@@ -78,20 +78,23 @@ const Nav = ({ openNav }: Props) => {
         {/* Right: Download + Mobile Menu */}
         <div className="flex items-center space-x-4">
           {/* Use plain anchor for file download to avoid Link constraints */}
-          <a
-            href="/cv.pdf"
-            download
-            className="px-5 py-2 text-sm font-medium rounded-lg
-                       bg-[linear-gradient(90deg,#007BFF,#00E5FF,#5A00A8)]
-                       hover:bg-[linear-gradient(90deg,#5A00A8,#00E5FF,#007BFF)]
-                       hover:text-black transition-all duration-200 text-white
-                       shadow-[0_0_8px_1px_rgba(0,229,255,0.6)]
-                       hover:shadow-[0_0_15px_3px_rgba(0,229,255,0.9)]
-                       flex items-center gap-2"
-          >
-            <BiDownload />
-            <span>Download CV</span>
-          </a>
+        <a
+  href="/cv.pdf"
+  download
+  className="
+    px-4 py-2 text-xs sm:text-sm font-medium rounded-md
+    bg-[linear-gradient(90deg,#007BFF,#00E5FF,#5A00A8)]
+    hover:bg-[linear-gradient(90deg,#5A00A8,#00E5FF,#007BFF)]
+    hover:text-black transition-all duration-200 text-white
+    shadow-[0_0_8px_1px_rgba(0,229,255,0.6)]
+    hover:shadow-[0_0_15px_3px_rgba(0,229,255,0.9)]
+    flex items-center gap-1.5 sm:gap-2
+  "
+>
+  <BiDownload className="text-sm sm:text-base" />
+  <span className="leading-none font-bold">Download CV</span>
+</a>
+
 
           <button
             onClick={openNav}

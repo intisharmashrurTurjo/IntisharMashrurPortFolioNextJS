@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="absolute z-10 w-[210px] h-[210px] rounded-full bg-[#0c0c48aa] pointer-events-none"></div>
 
       {/* Content wrapper (on top of particles) */}
-      <div className="relative z-20 flex flex-col items-center -mt-32">
+      <div className="relative z-20 flex flex-col items-center -mt-12">
 
         {/* Circle Wrapper */}
         <div className="
