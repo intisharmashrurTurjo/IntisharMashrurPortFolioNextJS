@@ -27,7 +27,7 @@ const responsive = {
 const ClientReview = () => {
   return (
     <div className="pt-16 mt-10 pb-16">
-      <h1 className="text-center font-roboto-mono tracking-wider text-2xl md:text-4xl xl:text-5xl font-extrabold text-white">Kind Word From Satisfied <br /><span className="text-cyan-200 tracking-wider">Clients</span> </h1>
+      <h1 className="text-center font-roboto-mono tracking-wider leading-16 text-4xl md:text-4xl xl:text-5xl font-extrabold text-white">Kind Word From Satisfied <br /><span className="text-cyan-200 tracking-wider">Clients</span> </h1>
       <div className="mt-16 w-[70%] mx-auto">
         <Carousel
   showDots={false}
