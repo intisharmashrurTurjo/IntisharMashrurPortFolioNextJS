@@ -23,7 +23,7 @@ const Contact = () => {
                         </div>
                           <div className="flex items-center space-x-3 mb-4">
                     <BiMap className="text-cyan-300 w-7 h-7"/>
-                    <p className="text-md font-bold text-gray-400">Avenue 5, Mirpur 11, Dhaka-1216, Bangladesh</p>
+                    <p className="text-md font-bold text-gray-400">Avenue 5, Mirpur 10, Dhaka-1216, Bangladesh</p>
                 </div>
                     </div>
                         {/*Social Icons */}
