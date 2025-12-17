@@ -29,19 +29,24 @@ const Contact = () => {
                         {/*Social Icons */}
                         <div className="flex items-center mt-8 space-x-3">
                             <div className="w-14 h-14 bg-blue-950/60 rounded-full flex justify-center items-center cursor-pointer flex-col hover:bg-blue-800 transition-all duration-300">
-                            <FaFacebookF className="mx-auto text-white w-6 h-6"/>
+                            
+                           <a href="https://www.facebook.com/intishermashrur.turjo/"><FaFacebookF className="mx-auto text-white w-6 h-6"/> </a>
                             </div>
+                            
                             
                             <div className="w-14 h-14 bg-blue-950/60 rounded-full flex justify-center items-center cursor-pointer flex-col hover:bg-red-800 transition-all duration-300">
-                            <FaYoutube className="mx-auto text-white w-6 h-6"/>
+                            <a href="https://www.youtube.com/@intisharmashrur"><FaYoutube className="mx-auto text-white w-6 h-6"/></a>
                             </div>
-                            
+                            <a href="https://github.com/intisharmashrurTurjo">
                             <div className="w-14 h-14 bg-blue-950/60 rounded-full flex justify-center items-center cursor-pointer flex-col hover:bg-slate-950 transition-all duration-300">
                             <FaGithub className="mx-auto text-white w-6 h-6"/>
                             </div>
+                        </a>
+                            <a href="https://www.linkedin.com/in/intishar-mashrur-turjo-5157bb212/">
                             <div className="w-14 h-14 bg-blue-950/60 rounded-full flex justify-center items-center cursor-pointer flex-col hover:bg-sky-900 transition-all duration-300">
                             <FaLinkedin className="mx-auto text-white w-6 h-6"/>
                             </div>
+                            </a>
                         </div>
                 </div>
                 {/* Contact Form Section */}
